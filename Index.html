@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Musikapplikation</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Artister</h1>
+    <ul>
+        <li>Artist 1</li>
+        <li>Artist 2</li>
+        <li>Artist 3</li>
+    </ul>
+
+    <h1>Musikalbum</h1>
+    <ul>
+        <li>Album 1 (Artist 1)</li>
+        <li>Album 2 (Artist 2)</li>
+        <li>Album 3 (Artist 3)</li>
+    </ul>
+
+    <h1>Låtar</h1>
+    <ul>
+        <li>Låt 1 (Album 1)</li>
+        <li>Låt 2 (Album 1)</li>
+        <li>Låt 1 (Album 2)</li>
+        <li>Låt 2 (Album 2)</li>
+        <li>Låt 1 (Album 3)</li>
+        <li>Låt 2 (Album 3)</li>
+    </ul>
+
+    <h1>Lägg till artist</h1>
+    <form>
+        <label for="artistName">Namn:</label>
+        <input type="text" id="artistName" name="artistName">
+        <button type="submit">Lägg till artist</button>
+    </form>
+
+    <h1>Lägg till album</h1>
+    <form>
+        <label for="albumName">Namn:</label>
+        <input type="text" id="albumName" name="albumName">
+        <label for="artistSelect">Artist:</label>
+        <select id="artistSelect" name="artistSelect">
+            <option value="1">Artist 1</option>
+            <option value="2">Artist 2</option>
+            <option value="3">Artist 3</option>
+        </select>
+        <button type="submit">Lägg till album</button>
+    </form>
+
+    <h1>Lägg till låt</h1>
+    <form>
+        <label for="songName">Namn:</label>
+        <input type="text" id="songName" name="songName">
+        <label for="albumSelect">Album:</label>
+        <select id="albumSelect" name="albumSelect">
+            <option value="1">Album 1</option>
+            <option value="2">Album 2</option>
+            <option value="3">Album 3</option>
+        </select>
+        <button type="submit">Lägg till låt</button>
+    </form>
+</body>
+</html>
