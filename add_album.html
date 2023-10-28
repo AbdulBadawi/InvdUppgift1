@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add Album</title>
+  </head>
+  <body>
+    <h1>Add Album</h1>
+    <form action="/artists/1/albums" method="POST">
+      <!-- Byt ut "1" mot den önskade artistens ID -->
+      <label for="album_name">Album Name:</label>
+      <input type="text" name="album_name" id="album_name" required>
+      <br>
+      <label for="release_year">Release Year:</label>
+      <input type="number" name="release_year" id="release_year">
+      <br>
+      <button type="submit">Add Album</button>
+    </form>
+  </body>
+</html>
