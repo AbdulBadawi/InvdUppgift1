@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add Artist</title>
+  </head>
+  <body>
+    <h1>Add Artist</h1>
+    <form action="/artists" method="POST">
+      <label for="artist_name">Artist Name:</label>
+      <input type="text" name="artist_name" id="artist_name" required>
+      <br>
+      <label for="description">Description:</label>
+      <textarea name="description" id="description" rows="4" cols="50"></textarea>
+      <br>
+      <button type="submit">Add Artist</button>
+    </form>
+  </body>
+</html>
